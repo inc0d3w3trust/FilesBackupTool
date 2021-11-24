@@ -16,5 +16,17 @@ Optional attribute - `tempdir=/path/to/other/logic/drive/with/exdended/memory/`.
 To restore fresh files from the backups uses attribute - `restore`. All files will be restored to the predefined directory in settings.xml.
 
 # In practice
-In practice the better way is to place executable jar file in the separate place from the workspaces. 
+In practice the better way is to keep executable jar file in the separate place from the workspaces.
 An each workspace consist of the settings.xml with individual options and log4j.properties file in the one folder. The other files will creates by the application if is not exists.
+The best practice to use application is to create bash script for each workspace in any comfortable folder.
+## Linux bash example
+```bash
+#!/bin/bash
+jar_file_path="/home/user/backupjar/FlexibleBackupTool-2.1.9-shaded.jar"
+workspace_path="/home/user/workspace/" 
+temp_path="/var/shared/tmp/"
+java -jar $jar_file_path workspace=$workspace_path tempdir=$temp_path
+```
+## Windows bash example
+```bash
+```
