@@ -42,5 +42,5 @@ When everything start with no errors you will see something similar in your term
 </p>
 ## Archiving file
 <p align="center">
-  <img src="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/img_examples/checksum-example.jpg" width="640" title="file checksum">
+  <img src="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/img_examples/archive-example.jpg" width="640" title="file archive">
 </p>
