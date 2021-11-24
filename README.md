@@ -31,6 +31,6 @@ java -jar $jar_file_path workspace=$workspace_path tempdir=$temp_path
 ```bash
 @echo off
 SET jar_file_path=C:\Users\tn_gordm\Devspaces\eclipse-workspace\FlexibleBackupTool-2.1.9\target\FlexibleBackupTool-2.1.9-shaded.jar
-java -jar workspace=C:\Users\tn_gordm/Devspaces/eclipse-workspace/FlexibleBackupTool-2.1.9\backup-workspace\ tempdir=D:\temp\
+java -jar workspace=C:\Users\tn_gordm\Devspaces\eclipse-workspace\FlexibleBackupTool-2.1.9\backup-workspace\ tempdir=D:\temp\
 timeout 30
 ```
