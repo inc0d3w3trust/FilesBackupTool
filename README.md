@@ -12,4 +12,4 @@ To run an executable `jar` file the OS have to have Java jdk 1.7 or higher versi
 # How to run java application?
 The executable 'jar' file has several attributes. 
 The the main and permanent attribute - `workspace=/path/to/appication/settings/and/log/property/files/`.
-Optional attribute - `tempdir=/path/to/other/logic/drive/with/exdended/memory/`. By default application uses temporary folder of OS to create the ZIP archive before the move it to the path from settings.xml. **NB! DO NOT USE MAPPED DRIVES FOR tempdir** - this is not works for application, local drive only.
+Optional attribute - `tempdir=/path/to/other/logic/drive/with/exdended/memory/`. By default application uses temporary folder of OS to create the ZIP archive before the move it to the path from settings.xml. **NB! DO NOT USE MAPPED DRIVES FOR tempdir** - this is not works for the application, local drive only.
