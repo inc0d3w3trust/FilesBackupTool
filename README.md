@@ -8,3 +8,6 @@ In the production uses programs to the measures and in this case the setting opt
 
 # Requirements
 To run an executable `jar` file the OS have to have Java jdk 1.7 or higher version.
+
+# How to run java application?
+The executable 'jar' file has several attributes. The one of them is permanent - `workspace=/path/to/appication/settings/and/log/property/files/`.
