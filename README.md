@@ -34,3 +34,9 @@ SET jar_file_path=C:\Users\tn_gordm\Devspaces\eclipse-workspace\FlexibleBackupTo
 java -jar workspace=C:\Users\tn_gordm\Devspaces\eclipse-workspace\FlexibleBackupTool-2.1.9\backup-workspace\ tempdir=D:\temp\
 timeout 30
 ```
+# Script illustration
+## Gathering checksum of file
+When everything start with no errors you will see something similar in your terminal:
+<p align="center">
+  <img src="your_relative_path_here" width="350" title="file checksum">
+</p>
