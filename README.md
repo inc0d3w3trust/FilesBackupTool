@@ -16,3 +16,4 @@ Optional attribute - `tempdir=/path/to/other/logic/drive/with/exdended/memory/`.
 To restore fresh files from the backups uses attribute - `restore`. All files will be restored to the predefined directory in settings.xml.
 
 # In practice
+In practice the better way is to place executable jar file in the separate place from the workspaces. 
