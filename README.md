@@ -17,3 +17,4 @@ To restore fresh files from the backups uses attribute - `restore`. All files wi
 
 # In practice
 In practice the better way is to place executable jar file in the separate place from the workspaces. 
+An each workspace consist of the settings.xml with individual options and log4j.properties file in the one folder. The other files will creates by the application if is not exists.
