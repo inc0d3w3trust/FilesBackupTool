@@ -38,5 +38,5 @@ timeout 30
 ## Gathering checksum of file
 When everything start with no errors you will see something similar in your terminal:
 <p align="center">
-  <img src="your_relative_path_here" width="350" title="file checksum">
+  <img src="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/img_examples/checksum-example.jpg" width="350" title="file checksum">
 </p>
