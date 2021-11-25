@@ -7,14 +7,14 @@ This tool is implemented in production where the measurement log files gathering
 In the production uses programs to the measures and in this case the setting options works to backup only the modifies programs without deletes from the folder.
 
 # Requirements
-To run an executable <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/target/FlexibleBackupTool-2.1.9-shaded.jar">`jar`</a> file the OS have to have Java jdk 1.7 or higher version.
+To run an executable <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/target">`jar`</a> file the OS have to have Java jdk 1.7 or higher version.
 
 # How to run java application?
-The executable 'jar' file has several attributes. 
+The executable <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/target">`jar`</a> file has several attributes. 
 The the main and permanent attribute - `workspace=/path/to/appication/settings/and/log/property/files/`.
 Optional attribute - `tempdir=/path/to/other/logic/drive/with/exdended/memory/`. By default application uses temporary folder of the OS to create the ZIP archive before the move it to the path from settings.xml. **NB! DO NOT USE MAPPED DRIVES FOR tempdir** - this is not works for the application, local drive only.
 To restore fresh files from the backups uses attribute - `restore`. All files will be restored to the predefined directory in settings.xml.
-The **settings.xml** and **log4j.properties** located in the <a href="https://github.com/inc0d3w3trust/FilesBackupTool/tree/main/backup-workspace" target="_blank">backup-workspace</a> and required for run a `jar`. The <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/backup-workspace/settings.xml">**settings.xml**</a> well documented file.
+The **settings.xml** and **log4j.properties** located in the <a href="https://github.com/inc0d3w3trust/FilesBackupTool/tree/main/backup-workspace" target="_blank">backup-workspace</a> and required for run a <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/target">`jar`</a>. The <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/backup-workspace/settings.xml">**settings.xml**</a> well documented file.
 
 # In practice
 In practice the better way is to keep executable jar file in the separate place from the workspaces.
