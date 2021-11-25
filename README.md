@@ -50,4 +50,4 @@ When everything start with no errors you will see something similar in your term
 <p align="center">
   <img src="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/img_examples/finish-example.jpg" width="640" title="the end of backup">
 </p>
-As an example of the illustration above has presented [backup-workspace](https://github.com/inc0d3w3trust/FilesBackupTool/tree/main/backup-workspace "workspace example") folder with the results of the script.
+As an example of the illustration above has presented <a href="https://github.com/inc0d3w3trust/FilesBackupTool/tree/main/backup-workspace" target="_blank">backup-workspace</a> folder with the results of the script.
