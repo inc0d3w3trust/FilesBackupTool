@@ -10,7 +10,7 @@ In the production uses programs to the measures and in this case the setting opt
 To run an executable <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/target">`jar`</a> file the OS have to have Java jdk 1.7 or higher version.
 
 # How to run java application?
-The executable <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/target">`jar`</a> file has several attributes.
+The executable <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/target">`jar`</a> file has several attributes:
 
 | Attribute name | Syntax | Description |
 | -------------- | ----------------------- | ----------------------- |
