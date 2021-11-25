@@ -21,7 +21,7 @@ The executable <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/ma
 To the correct running of the script mandatory have to have in the directory of workspace two files: settings.xml; log4j.properties;
 
 The <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/backup-workspace/settings.xml">**settings.xml**</a> well documented file.
-About <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/backup-workspace/log4j.properties">**log4j.properties**</a> read more from http://logging.apache.org/log4j/1.2/manual.html
+About <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/backup-workspace/log4j.properties">**log4j.properties**</a> read more from the http://logging.apache.org/log4j/1.2/manual.html
 
 # In practice
 In practice the better way is to keep executable jar file in the separate place from the workspaces.
