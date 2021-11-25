@@ -14,14 +14,13 @@ The executable <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/ma
 
 | Attribute name | Syntax | Description |
 | -------------- | ----------------------- | ----------------------- |
-| workspace | workspace=/path/to/workspace/dir | mandatory attribute |
-| tempdir | temdir=/path/to/other/logic/drive/with/extended/physicalmemory | optional **NB! DO NOT USE MAPPED DRIVES FOR tempdir attribute.** |
+| workspace | workspace=/path/to/workspace/directory/ | mandatory attribute |
+| tempdir | temdir=/path/to/other/logic/drive/ | optional (local drive only) |
 | restore | restore | this is works only if the tag <checksum> is in TRUE in settings.xml |
 
-The the main and permanent attribute - `workspace=/path/to/appication/settings/and/log/property/files/`.
-Optional attribute - `tempdir=/path/to/other/logic/drive/with/exdended/memory/`. By default application uses temporary folder of the OS to create the ZIP archive before the move it to the path from settings.xml. **NB! DO NOT USE MAPPED DRIVES FOR tempdir** - this is not works for the application, local drive only.
-To restore fresh files from the backups uses attribute - `restore`. All files will be restored to the predefined directory in settings.xml.
-The **settings.xml** and **log4j.properties** located in the <a href="https://github.com/inc0d3w3trust/FilesBackupTool/tree/main/backup-workspace" target="_blank">backup-workspace</a> and required for run a <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/target">`jar`</a>. The <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/backup-workspace/settings.xml">**settings.xml**</a> well documented file.
+To the correct running of the script mandatory have to have in the directory of workspace two files: settings.xml; log4j.properties;
+The <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/backup-workspace/settings.xml">**settings.xml**</a> well documented file.
+About <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/backup-workspace/log4j.properties">**log4j.properties**</a> read more from http://logging.apache.org/log4j/1.2/manual.html
 
 # In practice
 In practice the better way is to keep executable jar file in the separate place from the workspaces.
