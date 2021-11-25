@@ -16,7 +16,7 @@ The executable <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/ma
 | -------------- | ----------------------- | ----------------------- |
 | workspace | workspace=/path/to/workspace/dir | mandatory attribute |
 | tempdir | temdir=/path/to/other/logic/drive/with/extended/physicalmemory | optional **NB! DO NOT USE MAPPED DRIVES FOR tempdir attrib.** |
-
+| restore | restore | this is works only if the tag <checksum> is in TRUE in settings.xml |
 
 The the main and permanent attribute - `workspace=/path/to/appication/settings/and/log/property/files/`.
 Optional attribute - `tempdir=/path/to/other/logic/drive/with/exdended/memory/`. By default application uses temporary folder of the OS to create the ZIP archive before the move it to the path from settings.xml. **NB! DO NOT USE MAPPED DRIVES FOR tempdir** - this is not works for the application, local drive only.
