@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Properties>
+	<!-- list of directories for backup -->
+	<SourceFolders>
+		<!-- the directory tag uses as the path to the folder that will be placed in backup with all subfolders and files -->
+		<!-- the attribute archive_files is a boolean type for the folder to compress files from folder in backup or not  -->
+		<!-- the attribute delete_source_after_backup is a boolan type for existing files and subfolders that will be deleted after backup from the directory if it is TRUE -->
+		<!-- in the case below application create timestamp folder with archive file FalseCallsOnly.zip by the path(s) from BackupDirections tag -->
+		<directory archive_files="true" delete_source_after_backup="false">D:\Line2_OIS_01.21\FalseCallsOnly</directory>
+	</SourceFolders>
+
+	<!-- the list of possible file extansions that will be placed in backup -->
+	<!-- NB! do not use '.' - dot before extension name -->
+	<!-- the attribute 'active' in the BackupExtensions tag uses to enable or disable separating files by extensions -->
+	<BackupExtensions active="true">
+		<extension>ois</extension>
+	</BackupExtensions>
+
+	<!-- the checksum uses in that case if the same files in the target directories from time to time have been changes (not the name of file) and you need to backup only last changed files -->
+	<!-- if the files will be deleted after backup use FALSE for the checksum tag -->
+	<checksum>true</checksum>
+	<!-- this is the file where application looks for the last checksum to compare the same file for the changes in the source code -->
+	<checksumfileanme>checksum.properties</checksumfileanme>
+	
+	<!-- this is the file of backup store for the files that can be restored from archive parts of backups when checksum tag if TRUE -->
+	<RestoreJSON>restoredata.json</RestoreJSON>
+	<!-- the directory path for restored files -->
+	<RestoreDirectory>C:\Users\tn_gordm\Temp\files_backup\restore</RestoreDirectory>
+	
+	<!-- list of backup destinations -->
+	<!-- every destination will be have same result of backup -->
+	<BackupDirections>
+		<directory>C:\Users\tn_gordm\Temp\files_backup</directory>
+	</BackupDirections>
+</Properties>
