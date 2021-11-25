@@ -45,3 +45,8 @@ When everything start with no errors you will see something similar in your term
 <p align="center">
   <img src="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/img_examples/archive-example.jpg" width="640" title="file archive">
 </p>
+
+## At the end
+<p align="center">
+  <img src="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/img_examples/finish-example.jpg" width="640" title="the end of backup">
+</p>
