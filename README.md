@@ -7,7 +7,7 @@ This tool is implemented in production where the measurement log files gathering
 In the production uses programs to the measures and in this case the setting options works to backup only the modifies programs without deletes from the folder.
 
 # Requirements
-To run an executable `jar` file the OS have to have Java jdk 1.7 or higher version.
+To run an executable <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/main/target/FlexibleBackupTool-2.1.9-shaded.jar">`jar`</a> file the OS have to have Java jdk 1.7 or higher version.
 
 # How to run java application?
 The executable 'jar' file has several attributes. 
