@@ -15,7 +15,7 @@ The executable <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/ma
 | Attribute name | Syntax | Description |
 | -------------- | ----------------------- | ----------------------- |
 | workspace | workspace=/path/to/workspace/dir | mandatory attribute |
-| tempdir | temdir=/path/to/other/logic/drive/with/extended/physicalmemory | optional **NB! DO NOT USE MAPPED DRIVES FOR tempdir attrib.** |
+| tempdir | temdir=/path/to/other/logic/drive/with/extended/physicalmemory | optional **NB! DO NOT USE MAPPED DRIVES FOR tempdir attribute.** |
 | restore | restore | this is works only if the tag <checksum> is in TRUE in settings.xml |
 
 The the main and permanent attribute - `workspace=/path/to/appication/settings/and/log/property/files/`.
