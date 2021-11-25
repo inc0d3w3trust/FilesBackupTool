@@ -14,6 +14,7 @@ The executable 'jar' file has several attributes.
 The the main and permanent attribute - `workspace=/path/to/appication/settings/and/log/property/files/`.
 Optional attribute - `tempdir=/path/to/other/logic/drive/with/exdended/memory/`. By default application uses temporary folder of the OS to create the ZIP archive before the move it to the path from settings.xml. **NB! DO NOT USE MAPPED DRIVES FOR tempdir** - this is not works for the application, local drive only.
 To restore fresh files from the backups uses attribute - `restore`. All files will be restored to the predefined directory in settings.xml.
+The **settings.xml** and **log4j.properties** located in the <a href="https://github.com/inc0d3w3trust/FilesBackupTool/tree/main/backup-workspace" target="_blank">backup-workspace</a> and required for run a `jar`. The **settings.xml** well documented file.
 
 # In practice
 In practice the better way is to keep executable jar file in the separate place from the workspaces.
