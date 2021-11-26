@@ -24,7 +24,7 @@
 	
 	<!-- this is the file of backup store for the files that can be restored from archive parts of backups when checksum tag if TRUE -->
 	<RestoreJSON>restoredata.json</RestoreJSON>
-	<!-- the directory path for restored files -->
+	<!-- the directory path for the restored files -->
 	<RestoreDirectory>C:\Users\tn_gordm\Temp\files_backup\restore</RestoreDirectory>
 	
 	<!-- list of backup destinations -->
