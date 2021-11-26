@@ -16,7 +16,7 @@ The executable <a href="https://github.com/inc0d3w3trust/FilesBackupTool/blob/ma
 | -------------- | ----------------------- | ----------------------- |
 | workspace | workspace=/path/to/workspace/directory/ | mandatory attribute |
 | tempdir | temdir=/path/to/other/logic/drive/ | optional (local drive only) |
-| restore | restore | this is works only if the tag <checksum> is in TRUE in settings.xml |
+| restore | restore | this is works only if the tag checksum is on TRUE in settings.xml |
 
 To the correct running of the script mandatory have to have in the directory of workspace two files: settings.xml; log4j.properties;
 
